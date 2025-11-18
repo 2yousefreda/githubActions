@@ -13,8 +13,8 @@ jobs:
       - name: print a welcome message
         run: echo "welcom to our first GitHub Action"
 
-      - name: Rheckout repository
-        uses: actions/checkout@v4.3.1
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
 
       - name: List repo files
         run: ls -la
