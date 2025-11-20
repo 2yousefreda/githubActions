@@ -12,8 +12,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/setup-nude@3.6.0
-        with:
-          node-version: ${{ matrix.node_version }}
+      with:
+        node-version: ${{ matrix.node_version }}
     
       
 
